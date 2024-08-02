@@ -27,23 +27,23 @@ struct ContentView: View {
                 
                 VStack(spacing:30){
                     Button("Comedy"){
-                        backgroundColor =
+                        self.backgroundColor =
                             "green1"
                     } .font(.title)
                         .buttonStyle(.borderedProminent)
                         .tint(Color("green1"))
                     Button("Horror"){
-                        backgroundColor = "blue1"
+                        self.backgroundColor = "blue1"
                     } .font(.title)
                         .buttonStyle(.borderedProminent)
                         .tint(Color("blue1"))
                     Button("Romance"){
-                        backgroundColor = "pink1"
+                        self.backgroundColor = "pink1"
                     }.font(.title)
                         .buttonStyle(.borderedProminent)
                         .tint(Color("pink1"))
                     Button("Action"){
-                        backgroundColor = "orange1"
+                        self.backgroundColor = "orange1"
                     }.font(.title)
                         .buttonStyle(.borderedProminent)
                         .tint(Color("orange1"))
